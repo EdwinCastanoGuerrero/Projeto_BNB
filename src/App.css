@@ -1,0 +1,8 @@
+.container-principal {
+  width: 100%;
+  display: flex;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding-left: auto;
+  padding-right: auto;
+}

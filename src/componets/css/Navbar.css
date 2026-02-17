@@ -1,0 +1,71 @@
+.nav-top {
+    width: 100%;
+    height: 80px;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    border-bottom: 1px solid #ececec;
+}
+
+.img-logo {
+    max-width: 105px;
+    max-height: 30px;
+}
+
+.linkNav {
+    text-decoration: none;
+    color: #161616;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 8px;
+}
+
+.linkNav:hover {
+    background: #dddddd8e;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.iconNav {
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    color: #161616;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    
+}
+
+.iconNav:hover {
+    background: #dddddd8e;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.button-login {
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    color: gray;
+    width: 80px;
+    border-radius: 40px;
+    border: 1px solid gray;
+}
+
+.button-login:hover {
+    background: #dddddd8e;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown-item:hover {
+    background: #dddddd8e;
+    padding: 6px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
