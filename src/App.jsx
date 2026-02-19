@@ -7,9 +7,12 @@ import './App.css';
 
 //importação dos componentes
 import Navbar from './componets/navbar';
+import Categorias from './componets/categorias';
 
 //importação do Material desing Icons
 import '@mdi/font/css/materialdesignicons.min.css';
+
+
 
 
 
@@ -17,6 +20,7 @@ function App() {
   return (
     <div>
       <Navbar />
+      <Categorias />
     </div>
   )
 }
